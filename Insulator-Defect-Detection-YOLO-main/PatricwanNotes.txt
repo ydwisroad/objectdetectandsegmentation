@@ -1,0 +1,9 @@
+Data set
+https://github.com/VisDrone/VisDrone-Dataset
+
+Env
+python39
+
+python train.py --cfg models/IDD-YOLO.yaml --data data/VOC.yaml
+python train.py --cfg models/IDD-YOLO.yaml --data data/ImageNet10.yaml
+
